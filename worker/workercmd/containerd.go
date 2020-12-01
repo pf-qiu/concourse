@@ -33,8 +33,10 @@ func writeDefaultContainerdConfig(dest string) error {
 	//                   on a single snapshotter implementation we can better
 	//                   reason about potential problems down the road.
 	//
-	const config = `disabled_plugins = ["cri", "aufs", "btrfs", "zfs"]`
-
+	const config = `
+oom_score = -999
+disabled_plugins = ["cri", "aufs", "btrfs", "zfs"]
+`
 	err := ioutil.WriteFile(dest, []byte(config), 0755)
 	if err != nil {
 		return fmt.Errorf("write file %s: %w", dest, err)
