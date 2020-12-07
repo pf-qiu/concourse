@@ -8,7 +8,7 @@ import (
 
 	"time"
 
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 )
 
 type buildLogCollector struct {

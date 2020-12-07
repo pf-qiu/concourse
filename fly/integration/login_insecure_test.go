@@ -13,7 +13,7 @@ import (
 	"github.com/onsi/gomega/gexec"
 	"github.com/onsi/gomega/ghttp"
 
-	"github.com/concourse/concourse/fly/rc"
+	"github.com/pf-qiu/concourse/v6/fly/rc"
 )
 
 var _ = Describe("login -k Command", func() {

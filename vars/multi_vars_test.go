@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/concourse/concourse/vars"
+	. "github.com/pf-qiu/concourse/v6/vars"
 )
 
 var _ = Describe("MultiVariables", func() {

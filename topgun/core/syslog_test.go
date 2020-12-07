@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	. "github.com/concourse/concourse/topgun/common"
+	. "github.com/pf-qiu/concourse/v6/topgun/common"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

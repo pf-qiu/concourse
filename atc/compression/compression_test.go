@@ -2,7 +2,7 @@ package compression_test
 
 import (
 	"github.com/concourse/baggageclaim"
-	"github.com/concourse/concourse/atc/compression"
+	"github.com/pf-qiu/concourse/v6/atc/compression"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -8,7 +8,7 @@ type CompletionCommand struct {
 
 // credits:
 // https://godoc.org/github.com/jessevdk/go-flags#hdr-Completion
-// https://github.com/concourse/concourse/issues/1309#issuecomment-452893900
+// https://github.com/pf-qiu/concourse/v6/issues/1309#issuecomment-452893900
 const bashCompletionSnippet = `_fly_compl() {
 	args=("${COMP_WORDS[@]:1:$COMP_CWORD}")
 	local IFS=$'\n'

@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db/lock"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db/lock"
 )
 
 //go:generate counterfeiter . TeamFactory

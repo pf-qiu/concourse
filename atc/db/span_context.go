@@ -3,7 +3,7 @@ package db
 import (
 	"context"
 
-	"github.com/concourse/concourse/tracing"
+	"github.com/pf-qiu/concourse/v6/tracing"
 )
 
 type SpanContext map[string]string

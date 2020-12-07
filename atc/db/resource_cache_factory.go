@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db/lock"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db/lock"
 )
 
 //go:generate counterfeiter . ResourceCacheFactory
@@ -24,7 +24,7 @@ type ResourceCacheFactory interface {
 	// changing resource cache to interface to allow updates on object is not feasible.
 	// Since we need to pass it recursively in ResourceConfig.
 	// Also, metadata will be available to us before we create resource cache so this
-	// method can be removed at that point. See  https://github.com/concourse/concourse/issues/534
+	// method can be removed at that point. See  https://github.com/pf-qiu/concourse/v6/issues/534
 	UpdateResourceCacheMetadata(UsedResourceCache, []atc.MetadataField) error
 	ResourceCacheMetadata(UsedResourceCache) (ResourceConfigMetadataFields, error)
 

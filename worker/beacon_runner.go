@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/tsa"
+	"github.com/pf-qiu/concourse/v6/tsa"
 	"github.com/tedsuo/ifrit"
 	"github.com/tedsuo/ifrit/restart"
 	"golang.org/x/crypto/ssh"

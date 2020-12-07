@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/policy"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/exec"
+	"github.com/pf-qiu/concourse/v6/atc/policy"
 )
 
 const supportedSchema = "exec.v2"

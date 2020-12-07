@@ -7,11 +7,11 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/runtime"
-	"github.com/concourse/concourse/atc/worker"
-	"github.com/concourse/concourse/tracing"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/exec"
+	"github.com/pf-qiu/concourse/v6/atc/runtime"
+	"github.com/pf-qiu/concourse/v6/atc/worker"
+	"github.com/pf-qiu/concourse/v6/tracing"
 	"go.opentelemetry.io/otel/api/trace"
 )
 

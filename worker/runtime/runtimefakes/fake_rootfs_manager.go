@@ -4,7 +4,7 @@ package runtimefakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/worker/runtime"
+	"github.com/pf-qiu/concourse/v6/worker/runtime"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

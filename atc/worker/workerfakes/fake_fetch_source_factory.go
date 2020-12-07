@@ -5,10 +5,10 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/resource"
-	"github.com/concourse/concourse/atc/runtime"
-	"github.com/concourse/concourse/atc/worker"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/resource"
+	"github.com/pf-qiu/concourse/v6/atc/runtime"
+	"github.com/pf-qiu/concourse/v6/atc/worker"
 )
 
 type FakeFetchSourceFactory struct {

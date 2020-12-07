@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/creds"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/creds"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/vars"
 )
 
 type FakePipeline struct {

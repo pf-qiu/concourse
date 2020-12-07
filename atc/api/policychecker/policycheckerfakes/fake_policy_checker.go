@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/concourse/concourse/atc/api/accessor"
-	"github.com/concourse/concourse/atc/api/policychecker"
-	"github.com/concourse/concourse/atc/policy"
+	"github.com/pf-qiu/concourse/v6/atc/api/accessor"
+	"github.com/pf-qiu/concourse/v6/atc/api/policychecker"
+	"github.com/pf-qiu/concourse/v6/atc/policy"
 )
 
 type FakePolicyChecker struct {

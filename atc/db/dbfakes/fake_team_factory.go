@@ -4,8 +4,8 @@ package dbfakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 )
 
 type FakeTeamFactory struct {

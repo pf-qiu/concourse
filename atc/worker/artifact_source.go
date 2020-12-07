@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/compression"
-	"github.com/concourse/concourse/atc/metric"
-	"github.com/concourse/concourse/atc/runtime"
-	"github.com/concourse/concourse/tracing"
+	"github.com/pf-qiu/concourse/v6/atc/compression"
+	"github.com/pf-qiu/concourse/v6/atc/metric"
+	"github.com/pf-qiu/concourse/v6/atc/runtime"
+	"github.com/pf-qiu/concourse/v6/tracing"
 	"github.com/hashicorp/go-multierror"
 )
 

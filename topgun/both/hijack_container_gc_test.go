@@ -3,7 +3,7 @@ package topgun_test
 import (
 	"time"
 
-	. "github.com/concourse/concourse/topgun/common"
+	. "github.com/pf-qiu/concourse/v6/topgun/common"
 	_ "github.com/lib/pq"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

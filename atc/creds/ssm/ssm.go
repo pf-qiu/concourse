@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/concourse/concourse/atc/creds"
+	"github.com/pf-qiu/concourse/v6/atc/creds"
 
 	"code.cloudfoundry.org/lager"
 	"github.com/aws/aws-sdk-go/aws"

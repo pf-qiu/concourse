@@ -4,7 +4,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/concourse/concourse/atc/creds"
+	"github.com/pf-qiu/concourse/v6/atc/creds"
 
 	vaultapi "github.com/hashicorp/vault/api"
 )

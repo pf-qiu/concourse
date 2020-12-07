@@ -3,8 +3,8 @@ package tracing_test
 import (
 	"context"
 
-	"github.com/concourse/concourse/tracing"
-	"github.com/concourse/concourse/tracing/tracingfakes"
+	"github.com/pf-qiu/concourse/v6/tracing"
+	"github.com/pf-qiu/concourse/v6/tracing/tracingfakes"
 	"go.opentelemetry.io/otel/api/global"
 	"go.opentelemetry.io/otel/api/trace"
 	"go.opentelemetry.io/otel/label"

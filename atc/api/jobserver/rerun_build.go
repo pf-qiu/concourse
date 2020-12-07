@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/concourse/concourse/atc/api/present"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/api/present"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 )
 
 func (s *Server) RerunJobBuild(pipeline db.Pipeline) http.Handler {

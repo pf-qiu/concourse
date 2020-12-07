@@ -8,7 +8,7 @@ import (
 	"code.cloudfoundry.org/lager/lagertest"
 	"github.com/onsi/gomega/ghttp"
 
-	. "github.com/concourse/concourse/worker"
+	. "github.com/pf-qiu/concourse/v6/worker"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

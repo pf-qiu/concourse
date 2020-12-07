@@ -16,7 +16,7 @@ var _ = Describe("Download Fly Cli", func() {
 		beforeFly = config.FlyBin
 
 		var err error
-		config.FlyBin, err = gexec.Build("github.com/concourse/concourse/fly")
+		config.FlyBin, err = gexec.Build("github.com/pf-qiu/concourse/v6/fly")
 		Expect(err).ToNot(HaveOccurred())
 	})
 

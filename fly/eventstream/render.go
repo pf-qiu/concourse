@@ -5,9 +5,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/concourse/concourse/atc/event"
-	"github.com/concourse/concourse/fly/ui"
-	"github.com/concourse/concourse/go-concourse/concourse/eventstream"
+	"github.com/pf-qiu/concourse/v6/atc/event"
+	"github.com/pf-qiu/concourse/v6/fly/ui"
+	"github.com/pf-qiu/concourse/v6/go-concourse/concourse/eventstream"
 	"github.com/fatih/color"
 )
 

@@ -3,8 +3,8 @@ package policy_test
 import (
 	"errors"
 
-	"github.com/concourse/concourse/atc/policy"
-	"github.com/concourse/concourse/atc/policy/policyfakes"
+	"github.com/pf-qiu/concourse/v6/atc/policy"
+	"github.com/pf-qiu/concourse/v6/atc/policy/policyfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

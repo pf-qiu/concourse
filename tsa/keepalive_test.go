@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"golang.org/x/crypto/ssh"
-	"github.com/concourse/concourse/tsa"
-	"github.com/concourse/concourse/tsa/tsafakes"
+	"github.com/pf-qiu/concourse/v6/tsa"
+	"github.com/pf-qiu/concourse/v6/tsa/tsafakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

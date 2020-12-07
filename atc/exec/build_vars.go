@@ -1,7 +1,7 @@
 package exec
 
 import (
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/vars"
 )
 
 type buildVariables struct {

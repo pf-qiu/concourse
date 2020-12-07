@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/api/auth"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/api/auth"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 )
 
 type scopedHandlerFactory struct {

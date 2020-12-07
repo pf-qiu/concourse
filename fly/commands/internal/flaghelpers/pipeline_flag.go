@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/vars"
 	"github.com/jessevdk/go-flags"
 	"sigs.k8s.io/yaml"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/fly/rc"
-	"github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/fly/rc"
+	"github.com/pf-qiu/concourse/v6/go-concourse/concourse"
 )
 
 type PipelineFlag struct {

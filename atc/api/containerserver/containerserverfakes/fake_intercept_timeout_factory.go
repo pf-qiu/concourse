@@ -4,7 +4,7 @@ package containerserverfakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/atc/api/containerserver"
+	"github.com/pf-qiu/concourse/v6/atc/api/containerserver"
 )
 
 type FakeInterceptTimeoutFactory struct {

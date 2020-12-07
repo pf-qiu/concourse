@@ -4,12 +4,12 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/concourse/concourse/tsa"
+	"github.com/pf-qiu/concourse/v6/tsa"
 	"golang.org/x/oauth2"
 
 	"code.cloudfoundry.org/lager/lagerctx"
 	"code.cloudfoundry.org/lager/lagertest"
-	"github.com/concourse/concourse/atc"
+	"github.com/pf-qiu/concourse/v6/atc"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"

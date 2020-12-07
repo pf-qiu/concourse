@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/metric"
-	"github.com/concourse/concourse/atc/metric/emitter"
+	"github.com/pf-qiu/concourse/v6/atc/metric"
+	"github.com/pf-qiu/concourse/v6/atc/metric/emitter"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

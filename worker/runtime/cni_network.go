@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/concourse/concourse/worker/runtime/iptables"
+	"github.com/pf-qiu/concourse/v6/worker/runtime/iptables"
 	"github.com/containerd/containerd"
 	"github.com/containerd/go-cni"
 	"github.com/opencontainers/runtime-spec/specs-go"

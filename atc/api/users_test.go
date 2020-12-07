@@ -7,10 +7,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/concourse/concourse/atc/api/accessor"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/dbfakes"
-	. "github.com/concourse/concourse/atc/testhelpers"
+	"github.com/pf-qiu/concourse/v6/atc/api/accessor"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db/dbfakes"
+	. "github.com/pf-qiu/concourse/v6/atc/testhelpers"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

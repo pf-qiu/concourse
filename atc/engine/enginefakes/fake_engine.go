@@ -5,8 +5,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/engine"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/engine"
 )
 
 type FakeEngine struct {

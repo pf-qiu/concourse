@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/concourse/concourse/fly/commands/internal/flaghelpers"
-	"github.com/concourse/concourse/fly/rc"
-	"github.com/concourse/concourse/fly/ui"
-	"github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/flaghelpers"
+	"github.com/pf-qiu/concourse/v6/fly/rc"
+	"github.com/pf-qiu/concourse/v6/fly/ui"
+	"github.com/pf-qiu/concourse/v6/go-concourse/concourse"
 	"github.com/vito/go-interact/interact"
 )
 

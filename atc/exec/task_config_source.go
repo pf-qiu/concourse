@@ -8,10 +8,10 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"github.com/concourse/baggageclaim"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/exec/build"
-	"github.com/concourse/concourse/atc/worker"
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/exec/build"
+	"github.com/pf-qiu/concourse/v6/atc/worker"
+	"github.com/pf-qiu/concourse/v6/vars"
 	"sigs.k8s.io/yaml"
 )
 

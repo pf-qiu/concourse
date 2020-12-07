@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/auditor"
+	"github.com/pf-qiu/concourse/v6/atc/auditor"
 )
 
 //go:generate counterfeiter net/http.Handler

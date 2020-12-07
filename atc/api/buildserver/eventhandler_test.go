@@ -3,17 +3,17 @@ package buildserver_test
 import (
 	"encoding/json"
 	"errors"
-	. "github.com/concourse/concourse/atc/testhelpers"
+	. "github.com/pf-qiu/concourse/v6/atc/testhelpers"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"time"
 
 	"code.cloudfoundry.org/lager/lagertest"
-	. "github.com/concourse/concourse/atc/api/buildserver"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/dbfakes"
-	"github.com/concourse/concourse/atc/event"
+	. "github.com/pf-qiu/concourse/v6/atc/api/buildserver"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db/dbfakes"
+	"github.com/pf-qiu/concourse/v6/atc/event"
 	"github.com/vito/go-sse/sse"
 
 	. "github.com/onsi/ginkgo"

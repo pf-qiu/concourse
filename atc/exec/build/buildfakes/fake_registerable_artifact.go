@@ -4,7 +4,7 @@ package buildfakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/atc/exec/build"
+	"github.com/pf-qiu/concourse/v6/atc/exec/build"
 )
 
 type FakeRegisterableArtifact struct {

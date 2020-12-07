@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/concourse/concourse/worker/runtime"
-	"github.com/concourse/concourse/worker/runtime/runtimefakes"
-	"github.com/concourse/concourse/worker/runtime/libcontainerd/libcontainerdfakes"
+	"github.com/pf-qiu/concourse/v6/worker/runtime"
+	"github.com/pf-qiu/concourse/v6/worker/runtime/runtimefakes"
+	"github.com/pf-qiu/concourse/v6/worker/runtime/libcontainerd/libcontainerdfakes"
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/runtime/v2/runc/options"
 	"github.com/containerd/typeurl"

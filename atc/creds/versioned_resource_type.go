@@ -1,8 +1,8 @@
 package creds
 
 import (
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/vars"
 )
 
 type VersionedResourceType struct {

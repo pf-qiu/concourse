@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/concourse/concourse/worker/runtime"
+	"github.com/pf-qiu/concourse/v6/worker/runtime"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

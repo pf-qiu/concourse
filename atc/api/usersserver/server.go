@@ -2,7 +2,7 @@ package usersserver
 
 import (
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 )
 
 type Server struct {

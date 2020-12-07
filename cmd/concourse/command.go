@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/concourse/concourse/atc/atccmd"
-	"github.com/concourse/concourse/worker/land"
-	"github.com/concourse/concourse/worker/retire"
-	"github.com/concourse/concourse/worker/workercmd"
+	"github.com/pf-qiu/concourse/v6/atc/atccmd"
+	"github.com/pf-qiu/concourse/v6/worker/land"
+	"github.com/pf-qiu/concourse/v6/worker/retire"
+	"github.com/pf-qiu/concourse/v6/worker/workercmd"
 	"github.com/jessevdk/go-flags"
 )
 

@@ -1,7 +1,7 @@
 package conjur_test
 
 import (
-	"github.com/concourse/concourse/atc/creds/conjur"
+	"github.com/pf-qiu/concourse/v6/atc/creds/conjur"
 	"github.com/jessevdk/go-flags"
 
 	. "github.com/onsi/ginkgo"

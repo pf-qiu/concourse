@@ -3,8 +3,8 @@ package exec_test
 import (
 	"context"
 
-	. "github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/exec/execfakes"
+	. "github.com/pf-qiu/concourse/v6/atc/exec"
+	"github.com/pf-qiu/concourse/v6/atc/exec/execfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

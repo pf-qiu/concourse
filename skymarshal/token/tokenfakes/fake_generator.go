@@ -4,8 +4,8 @@ package tokenfakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/skymarshal/token"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/skymarshal/token"
 )
 
 type FakeGenerator struct {

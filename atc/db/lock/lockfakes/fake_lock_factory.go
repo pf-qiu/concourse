@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/db/lock"
+	"github.com/pf-qiu/concourse/v6/atc/db/lock"
 )
 
 type FakeLockFactory struct {

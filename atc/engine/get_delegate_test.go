@@ -9,15 +9,15 @@ import (
 
 	"code.cloudfoundry.org/clock/fakeclock"
 	"code.cloudfoundry.org/lager/lagertest"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/dbfakes"
-	"github.com/concourse/concourse/atc/engine"
-	"github.com/concourse/concourse/atc/event"
-	"github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/policy/policyfakes"
-	"github.com/concourse/concourse/atc/runtime"
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db/dbfakes"
+	"github.com/pf-qiu/concourse/v6/atc/engine"
+	"github.com/pf-qiu/concourse/v6/atc/event"
+	"github.com/pf-qiu/concourse/v6/atc/exec"
+	"github.com/pf-qiu/concourse/v6/atc/policy/policyfakes"
+	"github.com/pf-qiu/concourse/v6/atc/runtime"
+	"github.com/pf-qiu/concourse/v6/vars"
 )
 
 var _ = Describe("GetDelegate", func() {

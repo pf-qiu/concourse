@@ -9,7 +9,7 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagerctx"
-	"github.com/concourse/concourse/tsa"
+	"github.com/pf-qiu/concourse/v6/tsa"
 )
 
 type Beacon struct {

@@ -6,11 +6,11 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagerctx"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/exec/build"
-	"github.com/concourse/concourse/atc/runtime"
-	"github.com/concourse/concourse/atc/worker"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/exec/build"
+	"github.com/pf-qiu/concourse/v6/atc/runtime"
+	"github.com/pf-qiu/concourse/v6/atc/worker"
 )
 
 type ArtifactVolumeNotFoundError struct {

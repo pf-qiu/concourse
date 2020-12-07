@@ -3,10 +3,10 @@ package wrappa_test
 import (
 	"net/http"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/api/auth"
-	"github.com/concourse/concourse/atc/db/dbfakes"
-	"github.com/concourse/concourse/atc/wrappa"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/api/auth"
+	"github.com/pf-qiu/concourse/v6/atc/db/dbfakes"
+	"github.com/pf-qiu/concourse/v6/atc/wrappa"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/tedsuo/rata"

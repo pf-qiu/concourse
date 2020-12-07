@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"code.cloudfoundry.org/lager/lagerctx"
-	"github.com/concourse/concourse/atc/api/present"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/api/present"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 )
 
 func (s *Server) CreateJobBuild(pipeline db.Pipeline) http.Handler {

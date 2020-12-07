@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/concourse/concourse"
+	"github.com/pf-qiu/concourse/v6"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/vito/twentythousandtonnesofcrudeoil"
 )

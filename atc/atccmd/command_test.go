@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/atccmd"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/atccmd"
 	"github.com/jessevdk/go-flags"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

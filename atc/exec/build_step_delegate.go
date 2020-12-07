@@ -7,9 +7,9 @@ import (
 	"code.cloudfoundry.org/lager"
 	"go.opentelemetry.io/otel/api/trace"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/worker"
-	"github.com/concourse/concourse/tracing"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/worker"
+	"github.com/pf-qiu/concourse/v6/tracing"
 )
 
 //go:generate counterfeiter . BuildStepDelegateFactory

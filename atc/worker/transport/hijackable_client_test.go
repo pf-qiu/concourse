@@ -9,10 +9,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/dbfakes"
-	"github.com/concourse/concourse/atc/worker/transport"
-	"github.com/concourse/concourse/atc/worker/transport/transportfakes"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db/dbfakes"
+	"github.com/pf-qiu/concourse/v6/atc/worker/transport"
+	"github.com/pf-qiu/concourse/v6/atc/worker/transport/transportfakes"
 	"github.com/concourse/retryhttp"
 	"github.com/concourse/retryhttp/retryhttpfakes"
 )

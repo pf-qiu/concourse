@@ -3,8 +3,8 @@ package exec
 import (
 	"errors"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/runtime"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/runtime"
 )
 
 func NewVersionSourceFromPlan(getPlan *atc.GetPlan) VersionSource {

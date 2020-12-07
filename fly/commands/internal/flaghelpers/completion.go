@@ -5,7 +5,7 @@ import (
 
 	"github.com/jessevdk/go-flags"
 
-	"github.com/concourse/concourse/fly/rc"
+	"github.com/pf-qiu/concourse/v6/fly/rc"
 )
 
 type flyCommand struct {

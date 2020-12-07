@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db/lock"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db/lock"
 )
 
 // A lot of struct refer to a pipeline. This is a helper interface that should

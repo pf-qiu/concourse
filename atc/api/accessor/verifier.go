@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 	"gopkg.in/square/go-jose.v2/jwt"
 )
 

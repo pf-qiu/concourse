@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/runtime"
+	"github.com/pf-qiu/concourse/v6/atc/runtime"
 )
 
 type FakeStartingEventDelegate struct {

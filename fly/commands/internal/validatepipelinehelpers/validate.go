@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/pf-qiu/concourse/v6/atc"
 
-	"github.com/concourse/concourse/atc/configvalidate"
-	"github.com/concourse/concourse/fly/commands/internal/displayhelpers"
-	"github.com/concourse/concourse/fly/commands/internal/templatehelpers"
-	"github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/pf-qiu/concourse/v6/atc/configvalidate"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/displayhelpers"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/templatehelpers"
+	"github.com/pf-qiu/concourse/v6/go-concourse/concourse"
 	"sigs.k8s.io/yaml"
 )
 

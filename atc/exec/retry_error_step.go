@@ -11,7 +11,7 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagerctx"
-	"github.com/concourse/concourse/atc/worker/transport"
+	"github.com/pf-qiu/concourse/v6/atc/worker/transport"
 )
 
 type Retriable struct {

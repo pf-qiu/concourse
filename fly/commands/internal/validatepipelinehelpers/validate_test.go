@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/concourse/concourse/fly/commands/internal/templatehelpers"
-	"github.com/concourse/concourse/fly/commands/internal/validatepipelinehelpers"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/templatehelpers"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/validatepipelinehelpers"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/pf-qiu/concourse/v6/atc"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

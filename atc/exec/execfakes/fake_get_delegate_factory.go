@@ -4,7 +4,7 @@ package execfakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/atc/exec"
+	"github.com/pf-qiu/concourse/v6/atc/exec"
 )
 
 type FakeGetDelegateFactory struct {

@@ -13,16 +13,16 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"github.com/concourse/baggageclaim"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/configvalidate"
-	"github.com/concourse/concourse/atc/creds"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/exec/artifact"
-	"github.com/concourse/concourse/atc/exec/build"
-	"github.com/concourse/concourse/atc/policy"
-	"github.com/concourse/concourse/atc/worker"
-	"github.com/concourse/concourse/tracing"
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/configvalidate"
+	"github.com/pf-qiu/concourse/v6/atc/creds"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/exec/artifact"
+	"github.com/pf-qiu/concourse/v6/atc/exec/build"
+	"github.com/pf-qiu/concourse/v6/atc/policy"
+	"github.com/pf-qiu/concourse/v6/atc/worker"
+	"github.com/pf-qiu/concourse/v6/tracing"
+	"github.com/pf-qiu/concourse/v6/vars"
 )
 
 const ActionRunSetPipeline = "SetPipeline"
@@ -100,7 +100,7 @@ func (step *SetPipelineStep) run(ctx context.Context, state RunState, delegate S
 	if step.plan.Name == "self" {
 		fmt.Fprintln(stderr, "\x1b[1;33mWARNING: 'set_pipeline: self' is experimental and may be removed in the future!\x1b[0m")
 		fmt.Fprintln(stderr, "")
-		fmt.Fprintln(stderr, "\x1b[33mcontribute to discussion #5732 with feedback: https://github.com/concourse/concourse/discussions/5732\x1b[0m")
+		fmt.Fprintln(stderr, "\x1b[33mcontribute to discussion #5732 with feedback: https://github.com/pf-qiu/concourse/v6/discussions/5732\x1b[0m")
 		fmt.Fprintln(stderr, "")
 
 		step.plan.Name = step.metadata.PipelineName
@@ -151,7 +151,7 @@ func (step *SetPipelineStep) run(ctx context.Context, state RunState, delegate S
 	} else {
 		fmt.Fprintln(stderr, "\x1b[1;33mWARNING: specifying the team in a set_pipeline step is experimental and may be removed in the future!\x1b[0m")
 		fmt.Fprintln(stderr, "")
-		fmt.Fprintln(stderr, "\x1b[33mcontribute to discussion #5731 with feedback: https://github.com/concourse/concourse/discussions/5731\x1b[0m")
+		fmt.Fprintln(stderr, "\x1b[33mcontribute to discussion #5731 with feedback: https://github.com/pf-qiu/concourse/v6/discussions/5731\x1b[0m")
 		fmt.Fprintln(stderr, "")
 
 		currentTeam, found, err := step.teamFactory.FindTeam(step.metadata.TeamName)

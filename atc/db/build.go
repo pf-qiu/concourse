@@ -11,16 +11,16 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	sq "github.com/Masterminds/squirrel"
-	"github.com/concourse/concourse/atc/creds"
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/atc/creds"
+	"github.com/pf-qiu/concourse/v6/vars"
 	"github.com/lib/pq"
 	"go.opentelemetry.io/otel/api/propagation"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db/encryption"
-	"github.com/concourse/concourse/atc/db/lock"
-	"github.com/concourse/concourse/atc/event"
-	"github.com/concourse/concourse/tracing"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db/encryption"
+	"github.com/pf-qiu/concourse/v6/atc/db/lock"
+	"github.com/pf-qiu/concourse/v6/atc/event"
+	"github.com/pf-qiu/concourse/v6/tracing"
 )
 
 const schema = "exec.v2"

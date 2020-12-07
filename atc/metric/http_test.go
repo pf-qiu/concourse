@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/concourse/concourse/atc/metric"
-	"github.com/concourse/concourse/atc/metric/metricfakes"
+	"github.com/pf-qiu/concourse/v6/atc/metric"
+	"github.com/pf-qiu/concourse/v6/atc/metric/metricfakes"
 
-	. "github.com/concourse/concourse/atc/metric"
+	. "github.com/pf-qiu/concourse/v6/atc/metric"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

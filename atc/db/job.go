@@ -12,9 +12,9 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	sq "github.com/Masterminds/squirrel"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db/lock"
-	"github.com/concourse/concourse/tracing"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db/lock"
+	"github.com/pf-qiu/concourse/v6/tracing"
 	"github.com/lib/pq"
 )
 

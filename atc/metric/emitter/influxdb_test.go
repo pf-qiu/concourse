@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/metric"
-	"github.com/concourse/concourse/atc/metric/emitter"
-	"github.com/concourse/concourse/atc/metric/emitter/emitterfakes"
+	"github.com/pf-qiu/concourse/v6/atc/metric"
+	"github.com/pf-qiu/concourse/v6/atc/metric/emitter"
+	"github.com/pf-qiu/concourse/v6/atc/metric/emitter/emitterfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

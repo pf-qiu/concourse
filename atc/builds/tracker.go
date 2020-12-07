@@ -6,10 +6,10 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagerctx"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/engine"
-	"github.com/concourse/concourse/atc/metric"
-	"github.com/concourse/concourse/atc/util"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/engine"
+	"github.com/pf-qiu/concourse/v6/atc/metric"
+	"github.com/pf-qiu/concourse/v6/atc/util"
 )
 
 func NewTracker(

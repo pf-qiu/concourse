@@ -2,8 +2,8 @@ package wrappa
 
 import (
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/api/accessor"
-	"github.com/concourse/concourse/atc/auditor"
+	"github.com/pf-qiu/concourse/v6/atc/api/accessor"
+	"github.com/pf-qiu/concourse/v6/atc/auditor"
 	"github.com/tedsuo/rata"
 )
 

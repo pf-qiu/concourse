@@ -5,8 +5,8 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/util"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/util"
 	"github.com/hashicorp/go-multierror"
 )
 

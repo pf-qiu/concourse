@@ -17,8 +17,8 @@ import (
 	"code.cloudfoundry.org/lager/lagerctx"
 	"code.cloudfoundry.org/lager/lagertest"
 	"github.com/concourse/baggageclaim"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/tsa"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/tsa"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

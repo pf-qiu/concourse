@@ -15,7 +15,7 @@ import (
 	"github.com/tedsuo/rata"
 	"sigs.k8s.io/yaml"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/pf-qiu/concourse/v6/atc"
 )
 
 var _ = Describe("Fly CLI", func() {

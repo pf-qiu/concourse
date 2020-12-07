@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	concourseCmd "github.com/concourse/concourse/cmd"
-	"github.com/concourse/concourse/worker/workercmd"
+	concourseCmd "github.com/pf-qiu/concourse/v6/cmd"
+	"github.com/pf-qiu/concourse/v6/worker/workercmd"
 	"github.com/concourse/flag"
 	"github.com/jessevdk/go-flags"
 	"github.com/tedsuo/ifrit"

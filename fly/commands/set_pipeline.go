@@ -4,13 +4,13 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/fly/commands/internal/flaghelpers"
-	"github.com/concourse/concourse/fly/commands/internal/setpipelinehelpers"
-	"github.com/concourse/concourse/fly/commands/internal/templatehelpers"
-	"github.com/concourse/concourse/fly/rc"
-	"github.com/concourse/concourse/go-concourse/concourse"
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/flaghelpers"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/setpipelinehelpers"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/templatehelpers"
+	"github.com/pf-qiu/concourse/v6/fly/rc"
+	"github.com/pf-qiu/concourse/v6/go-concourse/concourse"
+	"github.com/pf-qiu/concourse/v6/vars"
 
 	"github.com/mgutz/ansi"
 )

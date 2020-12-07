@@ -4,7 +4,7 @@ package workerfakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/atc/worker"
+	"github.com/pf-qiu/concourse/v6/atc/worker"
 )
 
 type FakeInputSource struct {

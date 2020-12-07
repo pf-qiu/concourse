@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/api/accessor"
-	"github.com/concourse/concourse/atc/api/accessor/accessorfakes"
-	"github.com/concourse/concourse/atc/api/auth"
-	"github.com/concourse/concourse/atc/auditor/auditorfakes"
-	"github.com/concourse/concourse/atc/db/dbfakes"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/api/accessor"
+	"github.com/pf-qiu/concourse/v6/atc/api/accessor/accessorfakes"
+	"github.com/pf-qiu/concourse/v6/atc/api/auth"
+	"github.com/pf-qiu/concourse/v6/atc/auditor/auditorfakes"
+	"github.com/pf-qiu/concourse/v6/atc/db/dbfakes"
 	"github.com/tedsuo/rata"
 
 	. "github.com/onsi/ginkgo"

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/concourse/concourse/atc/api/pipelineserver"
-	"github.com/concourse/concourse/atc/api/pipelineserver/pipelineserverfakes"
-	"github.com/concourse/concourse/atc/db/dbfakes"
+	"github.com/pf-qiu/concourse/v6/atc/api/pipelineserver"
+	"github.com/pf-qiu/concourse/v6/atc/api/pipelineserver/pipelineserverfakes"
+	"github.com/pf-qiu/concourse/v6/atc/db/dbfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

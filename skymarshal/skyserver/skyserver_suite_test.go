@@ -10,8 +10,8 @@ import (
 	. "github.com/onsi/gomega"
 
 	"code.cloudfoundry.org/lager/lagertest"
-	"github.com/concourse/concourse/skymarshal/skyserver"
-	"github.com/concourse/concourse/skymarshal/token/tokenfakes"
+	"github.com/pf-qiu/concourse/v6/skymarshal/skyserver"
+	"github.com/pf-qiu/concourse/v6/skymarshal/token/tokenfakes"
 	"github.com/onsi/gomega/ghttp"
 	"golang.org/x/oauth2"
 )

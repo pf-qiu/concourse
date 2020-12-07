@@ -1,9 +1,9 @@
 package engine_test
 
 import (
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/util"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/exec"
+	"github.com/pf-qiu/concourse/v6/atc/util"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

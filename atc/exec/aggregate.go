@@ -3,7 +3,7 @@ package exec
 import (
 	"context"
 
-	"github.com/concourse/concourse/atc/util"
+	"github.com/pf-qiu/concourse/v6/atc/util"
 	"github.com/hashicorp/go-multierror"
 )
 

@@ -3,9 +3,9 @@ package gc_test
 import (
 	"context"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/gc"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/gc"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

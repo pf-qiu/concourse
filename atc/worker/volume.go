@@ -2,12 +2,12 @@ package worker
 
 import (
 	"context"
-	"github.com/concourse/concourse/tracing"
+	"github.com/pf-qiu/concourse/v6/tracing"
 	"io"
 
 	"code.cloudfoundry.org/lager"
 	"github.com/concourse/baggageclaim"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 )
 
 //go:generate counterfeiter . Volume

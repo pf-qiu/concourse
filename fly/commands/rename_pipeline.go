@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/concourse/concourse/fly/commands/internal/displayhelpers"
-	"github.com/concourse/concourse/fly/commands/internal/flaghelpers"
-	"github.com/concourse/concourse/fly/rc"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/displayhelpers"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/flaghelpers"
+	"github.com/pf-qiu/concourse/v6/fly/rc"
 )
 
 type RenamePipelineCommand struct {

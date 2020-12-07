@@ -3,7 +3,7 @@ package flaghelpers
 import (
 	"strings"
 
-	"github.com/concourse/concourse/fly/rc"
+	"github.com/pf-qiu/concourse/v6/fly/rc"
 	"github.com/jessevdk/go-flags"
 )
 

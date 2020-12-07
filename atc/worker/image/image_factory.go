@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/worker"
+	"github.com/pf-qiu/concourse/v6/atc/worker"
 )
 
 var ErrUnsupportedResourceType = errors.New("unsupported resource type")

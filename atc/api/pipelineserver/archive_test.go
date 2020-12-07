@@ -7,8 +7,8 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
-	"github.com/concourse/concourse/atc/api/pipelineserver"
-	"github.com/concourse/concourse/atc/db/dbfakes"
+	"github.com/pf-qiu/concourse/v6/atc/api/pipelineserver"
+	"github.com/pf-qiu/concourse/v6/atc/db/dbfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gstruct"

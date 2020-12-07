@@ -6,9 +6,9 @@ import (
 	"unicode/utf8"
 
 	"code.cloudfoundry.org/clock"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/event"
-	"github.com/concourse/concourse/atc/exec"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/event"
+	"github.com/pf-qiu/concourse/v6/atc/exec"
 )
 
 func newDBEventWriter(build db.Build, origin event.Origin, clock clock.Clock) io.WriteCloser {

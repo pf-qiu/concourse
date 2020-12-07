@@ -3,10 +3,10 @@ package db_test
 import (
 	"time"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/dbtest"
-	"github.com/concourse/concourse/atc/db/lock"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db/dbtest"
+	"github.com/pf-qiu/concourse/v6/atc/db/lock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

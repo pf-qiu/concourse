@@ -1,7 +1,7 @@
 package version_test
 
 import (
-	. "github.com/concourse/concourse/fly/version"
+	. "github.com/pf-qiu/concourse/v6/fly/version"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

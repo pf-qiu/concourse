@@ -9,7 +9,7 @@ import (
 	"code.cloudfoundry.org/garden"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagerctx"
-	"github.com/concourse/concourse/atc/worker/gclient"
+	"github.com/pf-qiu/concourse/v6/atc/worker/gclient"
 )
 
 // ContainerSweeper is an ifrit.Runner that periodically reports and

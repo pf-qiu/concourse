@@ -8,8 +8,8 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
-	"github.com/concourse/concourse/skymarshal/dexserver"
-	store "github.com/concourse/concourse/skymarshal/storage"
+	"github.com/pf-qiu/concourse/v6/skymarshal/dexserver"
+	store "github.com/pf-qiu/concourse/v6/skymarshal/storage"
 	"github.com/concourse/dex/server"
 	"github.com/concourse/dex/storage"
 	"github.com/concourse/flag"

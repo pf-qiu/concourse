@@ -3,9 +3,9 @@ package accessor_test
 import (
 	"errors"
 
-	"github.com/concourse/concourse/atc/api/accessor"
-	"github.com/concourse/concourse/atc/api/accessor/accessorfakes"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/api/accessor"
+	"github.com/pf-qiu/concourse/v6/atc/api/accessor/accessorfakes"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

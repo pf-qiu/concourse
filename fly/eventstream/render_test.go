@@ -10,11 +10,11 @@ import (
 
 	"github.com/onsi/gomega/gbytes"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/event"
-	"github.com/concourse/concourse/fly/eventstream"
-	"github.com/concourse/concourse/fly/ui"
-	"github.com/concourse/concourse/go-concourse/concourse/eventstream/eventstreamfakes"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/event"
+	"github.com/pf-qiu/concourse/v6/fly/eventstream"
+	"github.com/pf-qiu/concourse/v6/fly/ui"
+	"github.com/pf-qiu/concourse/v6/go-concourse/concourse/eventstream/eventstreamfakes"
 )
 
 var _ = Describe("V1.0 Renderer", func() {

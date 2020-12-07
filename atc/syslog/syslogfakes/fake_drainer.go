@@ -5,7 +5,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/concourse/concourse/atc/syslog"
+	"github.com/pf-qiu/concourse/v6/atc/syslog"
 )
 
 type FakeDrainer struct {

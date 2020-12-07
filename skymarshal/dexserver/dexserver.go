@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/skymarshal/logger"
-	"github.com/concourse/concourse/skymarshal/skycmd"
-	s "github.com/concourse/concourse/skymarshal/storage"
+	"github.com/pf-qiu/concourse/v6/skymarshal/logger"
+	"github.com/pf-qiu/concourse/v6/skymarshal/skycmd"
+	s "github.com/pf-qiu/concourse/v6/skymarshal/storage"
 	"github.com/concourse/dex/server"
 	"github.com/concourse/dex/storage"
 	"github.com/markbates/pkger"

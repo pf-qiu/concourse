@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/concourse/concourse/atc/postgresrunner"
+	"github.com/pf-qiu/concourse/v6/atc/postgresrunner"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/tedsuo/ifrit"

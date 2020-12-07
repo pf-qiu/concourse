@@ -13,11 +13,11 @@ import (
 	"sigs.k8s.io/yaml"
 
 	"github.com/concourse/baggageclaim"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/exec/artifact"
-	"github.com/concourse/concourse/atc/exec/build"
-	"github.com/concourse/concourse/atc/worker"
-	"github.com/concourse/concourse/tracing"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/exec/artifact"
+	"github.com/pf-qiu/concourse/v6/atc/exec/build"
+	"github.com/pf-qiu/concourse/v6/atc/worker"
+	"github.com/pf-qiu/concourse/v6/tracing"
 )
 
 // LoadVarStep loads a value from a file and sets it as a build-local var.

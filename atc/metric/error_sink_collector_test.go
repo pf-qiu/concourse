@@ -2,8 +2,8 @@ package metric_test
 
 import (
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/metric"
-	"github.com/concourse/concourse/atc/metric/metricfakes"
+	"github.com/pf-qiu/concourse/v6/atc/metric"
+	"github.com/pf-qiu/concourse/v6/atc/metric/metricfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

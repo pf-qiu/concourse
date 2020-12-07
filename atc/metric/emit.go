@@ -7,7 +7,7 @@ import (
 
 	"code.cloudfoundry.org/lager"
 
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 	flags "github.com/jessevdk/go-flags"
 )
 

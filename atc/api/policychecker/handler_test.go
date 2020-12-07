@@ -8,9 +8,9 @@ import (
 
 	"code.cloudfoundry.org/lager/lagertest"
 
-	"github.com/concourse/concourse/atc/api/policychecker"
-	"github.com/concourse/concourse/atc/api/policychecker/policycheckerfakes"
-	"github.com/concourse/concourse/atc/policy"
+	"github.com/pf-qiu/concourse/v6/atc/api/policychecker"
+	"github.com/pf-qiu/concourse/v6/atc/api/policychecker/policycheckerfakes"
+	"github.com/pf-qiu/concourse/v6/atc/policy"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

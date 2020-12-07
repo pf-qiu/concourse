@@ -5,7 +5,7 @@ import (
 
 	"github.com/onsi/gomega/gbytes"
 
-	. "github.com/concourse/concourse/topgun"
+	. "github.com/pf-qiu/concourse/v6/topgun"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
@@ -99,7 +99,7 @@ var _ = Describe("Worker lifecycle", func() {
 			})
 
 			It("interrupts the task execution", func() {
-				Skip("skipping because it always fails due to https://github.com/concourse/concourse/issues/3011")
+				Skip("skipping because it always fails due to https://github.com/pf-qiu/concourse/v6/issues/3011")
 				By("seeing that there are no workers")
 
 				Eventually(func() []Worker {

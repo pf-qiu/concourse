@@ -3,12 +3,12 @@ package conjur_test
 import (
 	"errors"
 
-	"github.com/concourse/concourse/atc/creds"
+	"github.com/pf-qiu/concourse/v6/atc/creds"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/vars"
 
-	. "github.com/concourse/concourse/atc/creds/conjur"
+	. "github.com/pf-qiu/concourse/v6/atc/creds/conjur"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

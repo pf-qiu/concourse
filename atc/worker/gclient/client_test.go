@@ -7,8 +7,8 @@ import (
 	. "github.com/onsi/gomega"
 
 	"code.cloudfoundry.org/garden"
-	"github.com/concourse/concourse/atc/worker/gclient"
-	"github.com/concourse/concourse/atc/worker/gclient/connection/connectionfakes"
+	"github.com/pf-qiu/concourse/v6/atc/worker/gclient"
+	"github.com/pf-qiu/concourse/v6/atc/worker/gclient/connection/connectionfakes"
 )
 
 var _ = Describe("Client", func() {

@@ -1,7 +1,7 @@
 package executehelpers
 
 import (
-	"github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/pf-qiu/concourse/v6/go-concourse/concourse"
 	"github.com/concourse/go-archive/tgzfs"
 	"github.com/vbauerster/mpb/v4"
 )

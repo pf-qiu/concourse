@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/concourse/concourse/atc"
-	. "github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/creds"
+	"github.com/pf-qiu/concourse/v6/atc"
+	. "github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/creds"
 	"github.com/gobwas/glob"
 )
 

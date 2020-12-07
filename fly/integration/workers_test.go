@@ -4,8 +4,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/fly/ui"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/fly/ui"
 	"github.com/fatih/color"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/fly/commands/internal/flaghelpers"
-	"github.com/concourse/concourse/fly/ui/progress"
-	"github.com/concourse/concourse/go-concourse/concourse"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/flaghelpers"
+	"github.com/pf-qiu/concourse/v6/fly/ui/progress"
+	"github.com/pf-qiu/concourse/v6/go-concourse/concourse"
 	"github.com/vbauerster/mpb/v4"
 )
 

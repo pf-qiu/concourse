@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/pf-qiu/concourse/v6/atc"
 	"github.com/concourse/flag"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

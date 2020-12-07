@@ -4,7 +4,7 @@ package varsfakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/vars"
 )
 
 type FakeVariables struct {

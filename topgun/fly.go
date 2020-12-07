@@ -151,7 +151,7 @@ func (f *FlyCli) GetUserRole(teamName string) []string {
 }
 
 func BuildBinary() string {
-	flyBinPath, err := gexec.Build("github.com/concourse/concourse/fly")
+	flyBinPath, err := gexec.Build("github.com/pf-qiu/concourse/v6/fly")
 	Expect(err).ToNot(HaveOccurred())
 
 	return flyBinPath

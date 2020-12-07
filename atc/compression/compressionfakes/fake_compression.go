@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/concourse/baggageclaim"
-	"github.com/concourse/concourse/atc/compression"
+	"github.com/pf-qiu/concourse/v6/atc/compression"
 )
 
 type FakeCompression struct {

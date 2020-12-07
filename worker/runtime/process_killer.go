@@ -41,7 +41,7 @@ func NewProcessKiller() *processKiller {
 //      process (e.g., if the process is frozen due to a blocking syscall that
 //      never returns, or because it's suspended - see [1]).
 //
-// [1]: https://github.com/concourse/concourse/issues/4477
+// [1]: https://github.com/pf-qiu/concourse/v6/issues/4477
 //
 func (p processKiller) Kill(
 	ctx context.Context,

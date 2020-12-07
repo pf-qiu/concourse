@@ -3,7 +3,7 @@ package atc_test
 import (
 	"encoding/json"
 
-	. "github.com/concourse/concourse/atc"
+	. "github.com/pf-qiu/concourse/v6/atc"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

@@ -2,9 +2,9 @@ package jobserver
 
 import (
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc/api/auth"
-	"github.com/concourse/concourse/atc/creds"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/api/auth"
+	"github.com/pf-qiu/concourse/v6/atc/creds"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 )
 
 type Server struct {

@@ -3,7 +3,7 @@ package vault
 import (
 	"time"
 
-	"github.com/concourse/concourse/atc/creds"
+	"github.com/pf-qiu/concourse/v6/atc/creds"
 )
 
 // The vaultFactory will return a vault implementation of vars.Variables.

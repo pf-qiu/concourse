@@ -3,7 +3,7 @@ package event
 import (
 	"encoding/json"
 
-	"github.com/concourse/concourse/atc"
+	"github.com/pf-qiu/concourse/v6/atc"
 )
 
 type Error struct {

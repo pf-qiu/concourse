@@ -10,16 +10,16 @@ import (
 
 	"code.cloudfoundry.org/clock/fakeclock"
 	"code.cloudfoundry.org/lager"
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/db"
-	"github.com/concourse/concourse/atc/db/dbfakes"
-	"github.com/concourse/concourse/atc/db/lock"
-	"github.com/concourse/concourse/atc/db/lock/lockfakes"
-	"github.com/concourse/concourse/atc/engine"
-	"github.com/concourse/concourse/atc/engine/enginefakes"
-	"github.com/concourse/concourse/atc/exec"
-	"github.com/concourse/concourse/atc/policy/policyfakes"
-	"github.com/concourse/concourse/vars"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/db/dbfakes"
+	"github.com/pf-qiu/concourse/v6/atc/db/lock"
+	"github.com/pf-qiu/concourse/v6/atc/db/lock/lockfakes"
+	"github.com/pf-qiu/concourse/v6/atc/engine"
+	"github.com/pf-qiu/concourse/v6/atc/engine/enginefakes"
+	"github.com/pf-qiu/concourse/v6/atc/exec"
+	"github.com/pf-qiu/concourse/v6/atc/policy/policyfakes"
+	"github.com/pf-qiu/concourse/v6/vars"
 )
 
 var _ = Describe("CheckDelegate", func() {

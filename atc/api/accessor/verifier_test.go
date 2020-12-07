@@ -5,13 +5,13 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/concourse/concourse/atc/api/accessor/accessorfakes"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc/api/accessor/accessorfakes"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"gopkg.in/square/go-jose.v2/jwt"
 
-	"github.com/concourse/concourse/atc/api/accessor"
+	"github.com/pf-qiu/concourse/v6/atc/api/accessor"
 )
 
 var _ = Describe("Verifier", func() {

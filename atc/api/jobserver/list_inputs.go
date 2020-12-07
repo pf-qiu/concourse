@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/atc/api/present"
-	"github.com/concourse/concourse/atc/db"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/atc/api/present"
+	"github.com/pf-qiu/concourse/v6/atc/db"
 )
 
 func (s *Server) ListJobInputs(pipeline db.Pipeline) http.Handler {

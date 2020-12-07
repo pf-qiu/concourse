@@ -1,7 +1,7 @@
 package k8s_test
 
 import (
-	. "github.com/concourse/concourse/topgun"
+	. "github.com/pf-qiu/concourse/v6/topgun"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

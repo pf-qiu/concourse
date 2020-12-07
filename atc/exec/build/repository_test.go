@@ -1,10 +1,10 @@
 package build_test
 
 import (
-	"github.com/concourse/concourse/atc/exec/build"
-	. "github.com/concourse/concourse/atc/exec/build"
-	"github.com/concourse/concourse/atc/runtime"
-	"github.com/concourse/concourse/atc/runtime/runtimefakes"
+	"github.com/pf-qiu/concourse/v6/atc/exec/build"
+	. "github.com/pf-qiu/concourse/v6/atc/exec/build"
+	"github.com/pf-qiu/concourse/v6/atc/runtime"
+	"github.com/pf-qiu/concourse/v6/atc/runtime/runtimefakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

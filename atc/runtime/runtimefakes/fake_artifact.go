@@ -4,7 +4,7 @@ package runtimefakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/atc/runtime"
+	"github.com/pf-qiu/concourse/v6/atc/runtime"
 )
 
 type FakeArtifact struct {

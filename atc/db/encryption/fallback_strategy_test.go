@@ -1,8 +1,8 @@
 package encryption_test
 
 import (
-	"github.com/concourse/concourse/atc/db/encryption"
-	"github.com/concourse/concourse/atc/db/encryption/encryptionfakes"
+	"github.com/pf-qiu/concourse/v6/atc/db/encryption"
+	"github.com/pf-qiu/concourse/v6/atc/db/encryption/encryptionfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

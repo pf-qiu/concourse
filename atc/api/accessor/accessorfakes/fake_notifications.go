@@ -4,7 +4,7 @@ package accessorfakes
 import (
 	"sync"
 
-	"github.com/concourse/concourse/atc/api/accessor"
+	"github.com/pf-qiu/concourse/v6/atc/api/accessor"
 )
 
 type FakeNotifications struct {

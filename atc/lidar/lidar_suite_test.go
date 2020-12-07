@@ -1,7 +1,7 @@
 package lidar_test
 
 import (
-	"github.com/concourse/concourse/atc/util"
+	"github.com/pf-qiu/concourse/v6/atc/util"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/concourse/concourse/atc"
-	"github.com/concourse/concourse/go-concourse/concourse/internal"
+	"github.com/pf-qiu/concourse/v6/atc"
+	"github.com/pf-qiu/concourse/v6/go-concourse/concourse/internal"
 )
 
 //go:generate counterfeiter . Client

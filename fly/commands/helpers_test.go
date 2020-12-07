@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/concourse/concourse/atc"
-	. "github.com/concourse/concourse/fly/commands"
-	"github.com/concourse/concourse/fly/commands/internal/flaghelpers"
-	"github.com/concourse/concourse/fly/rc/rcfakes"
-	"github.com/concourse/concourse/go-concourse/concourse"
-	fakes "github.com/concourse/concourse/go-concourse/concourse/concoursefakes"
+	"github.com/pf-qiu/concourse/v6/atc"
+	. "github.com/pf-qiu/concourse/v6/fly/commands"
+	"github.com/pf-qiu/concourse/v6/fly/commands/internal/flaghelpers"
+	"github.com/pf-qiu/concourse/v6/fly/rc/rcfakes"
+	"github.com/pf-qiu/concourse/v6/go-concourse/concourse"
+	fakes "github.com/pf-qiu/concourse/v6/go-concourse/concourse/concoursefakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
